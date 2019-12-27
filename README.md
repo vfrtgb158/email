@@ -16,10 +16,10 @@
  
  一、发送纯文本邮件
  添加纯文本邮件非常简单，只需要用.add_text(text)方法,且参数只有一个text
- m.add_tittle(title='测试标题')
- m.add_text('这是使用python发送的测试邮件...\n'
+ + m.add_tittle(title='测试标题')
+ + m.add_text('这是使用python发送的测试邮件...\n'
             '这是一封纯文本的邮件,不带任何图片')
- m.send()
+ + m.send()
  
  
  二、添加附件
