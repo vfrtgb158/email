@@ -1,4 +1,4 @@
- # py3_email
+  # py3_email
  通过对smtplib和email模块进一步封装成py3_email.
  py3_email超简单,超易用. 以近乎傻瓜式的方式发送纯文本/图像/html邮件,并可添加附件
 
@@ -32,7 +32,7 @@
 
  # 三、发送HTML
  发送超链接也超级简单，用add_html()方法,唯一的参数是html_text
-  + html_text = """ <h>Python 邮件发送测试...</h><p><a href="https://github.com/vfrtgb158/email/tree/master">这是一个超链接</a></p>"""
+  + html_text = "<h>Python 邮件发送测试...</h><p><a href="https://github.com/vfrtgb158/email/tree/master">这是一个超链接</a></p>"
   + m.add_html(html_text)
   + m.send()
 
@@ -55,7 +55,7 @@
  py3_email会按照图片添加的顺序放入对应的<img>处
  记得,要先添加图片哦
 
- # 五、给自己来个漂亮的昵称\n
+ # 五、给自己来个漂亮的昵称
   + add_tittle() 方法填上from_nickname参数,昵称由你来定
   + m.add_tittle(title='测试标题',from_nickname='noreply')
 
