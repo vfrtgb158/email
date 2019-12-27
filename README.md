@@ -32,12 +32,9 @@
 
  # 三、发送HTML
  发送超链接也超级简单，用add_html()方法,唯一的参数是html_text
-  1. html_text = """
-  2. <h>Python 邮件发送测试...</h>
-  3. <p><a href="https://github.com/vfrtgb158/email/tree/master">这是一个超链接</a></p>
-  4. """
-  5. m.add_html(html_text)
-  6. m.send()
+  + html_text = """ <h>Python 邮件发送测试...</h><p><a href="https://github.com/vfrtgb158/email/tree/master">这是一个超链接</a></p>"""
+  + m.add_html(html_text)
+  + m.send()
 
  # 四、添加图片
  把图片添加到附件里，可能并不是你想要的效果，或许你想要的是在邮件正文中把图片展示出来，仅此而已。
