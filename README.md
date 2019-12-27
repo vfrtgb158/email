@@ -32,7 +32,7 @@
 
  # 三、发送HTML
  发送超链接也超级简单，用add_html()方法,唯一的参数是html_text
-  + html_text = "\<h>Python 邮件发送测试...\</h>\<p>\<a href="https://github.com/vfrtgb158/email/tree/master">这是一个超链接\</a>\</p>"
+  + html_text = "\<h>Python 邮件发送测试...\</h>\<p>\<a href="https://github.com/vfrtgb158/email/tree/master">这是一个超链接</a></p>"
   + m.add_html(html_text)
   + m.send()
 
