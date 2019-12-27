@@ -42,7 +42,7 @@
  py3_email得意的告诉你，so easy！
   + html_text = """
   +     <h>Python 邮件发送测试...</h>
-  +     \<p><a href="https://github.com/vfrtgb158/email/tree/master">这是一个超链接</a></p>
+  +     <p><a href="https://github.com/vfrtgb158/email/tree/master">这是一个超链接</a></p>
   +     <p>下面是2张图片：</p>
   +     <p><img></p>
   +     <p><img></p>
